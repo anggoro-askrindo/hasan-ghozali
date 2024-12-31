@@ -1,0 +1,78 @@
+name: askrindo
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.10+1
+  get: ^4.6.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+    - assets/image/
+
+  fonts:
+    - family: nunito
+      fonts:
+        # - asset: assets/font/nunito/Nunito-ExtraLight.ttf
+        #   weight: 200
+        # - asset: assets/font/nunito/Nunito-ExtraLightItalic.ttf
+        #   weight: 200
+        #   style: italic
+        # - asset: assets/font/nunito/Nunito-Light.ttf
+        #   weight: 300
+        # - asset: assets/font/nunito/Nunito-LightItalic.ttf
+        #   weight: 300
+        #   style: italic
+        - asset: assets/font/nunito/Nunito-Regular.ttf
+          weight: 400
+        - asset: assets/font/nunito/Nunito-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/font/nunito/Nunito-Medium.ttf
+          weight: 500
+        - asset: assets/font/nunito/Nunito-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/font/nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/nunito/Nunito-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/font/nunito/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/font/nunito/Nunito-BoldItalic.ttf
+          weight: 700
+          style: italic
+        # - asset: assets/font/nunito/Nunito-ExtraBold.ttf
+        #   weight: 800
+        # - asset: assets/font/nunito/Nunito-ExtraBoldItalic.ttf
+        #   weight: 800
+        #   style: italic
+        # - asset: assets/font/nunito/Nunito-Black.ttf
+        #   weight: 900
+        # - asset: assets/font/nunito/Nunito-BlackItalic.ttf
+        #   weight: 900
+        #   style: italic
+flutter_intl:
+    enabled: true
